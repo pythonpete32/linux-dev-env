@@ -31,6 +31,4 @@ VIM
     
     # copy and save the .vimrc from this repo
     
-    vim .jshintrc
-    
-    use 'esversion: 6'
+    echo "use 'esversion: 6'" > .jshintrc
