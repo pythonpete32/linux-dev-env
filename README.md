@@ -1,3 +1,6 @@
+To Do
+- add NPM/Node -g stuff to the First section 
+
 # VIM Stuff
 
 First 
