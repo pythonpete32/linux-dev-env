@@ -37,4 +37,5 @@ Create a .vimrc and then copy and save the .vimrc from this repo
 Fix JSHint
 
     echo "use 'esversion: 8'" > .jshint \
-    && echo -e "{\nuse 'esversion: 8'\n}" > .jshintrc
+    && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
+    && echo -e "module.exports = {\n\trules: {\n\t\t'no-console': 'off',\n\t},\n};" > .eslintrc.js
