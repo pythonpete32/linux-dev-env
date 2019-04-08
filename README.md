@@ -29,3 +29,9 @@ Then
 Then 
 
     git config --global credential.helper cache
+
+Then 
+
+    vim .vimrc
+    
+Then copy the .vimrc file from this repo and write quit `wq`
