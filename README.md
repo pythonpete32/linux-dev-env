@@ -28,5 +28,4 @@ VIM
     && python3 install.py --all \
     
     
-    cd \
-    && vim .vimrc
+    cd && vim .vimrc
