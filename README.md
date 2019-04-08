@@ -34,7 +34,8 @@ Create a .vimrc and then copy and save the .vimrc from this repo
 
     vim .vimrc
     
-Fix JSHint
+Fix JSHint and ESLint
+- you might have to run `npm init` and `eslint --init` in the root directory first
 
     echo "use 'esversion: 8'" > .jshint \
     && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
