@@ -1,5 +1,11 @@
 # VIM Stuff
 
+First 
+
+    sudo apt install build-essential cmake python3-dev
+
+Then
+
     mkdir -p ~/vim/pack/plugins/start/ \
     && cd ~/vim/pack/plugins/start/ \
     && git clone https://github.com/scrooloose/nerdtree.git \
