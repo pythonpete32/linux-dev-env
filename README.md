@@ -5,7 +5,7 @@
     sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
     && sudo apt-get upgrade \
-    && sudo npm i -g eslint eslint-plugin-react jshint npx solc prettier
+    && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier
     
     git config --global credential.helper cache
 
@@ -37,7 +37,3 @@ Create a .vimrc and then copy and save the .vimrc from this repo
 Fix JSHint
 
     echo "use 'esversion: 6'" > .jshintrc
-    
-Fix ESLint
-
-    echo "use 'esversion: 6'" > .eslintrc
