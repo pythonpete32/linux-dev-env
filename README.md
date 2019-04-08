@@ -9,4 +9,5 @@
     && git clone https://github.com/elzr/vim-json.git \
     && git clone https://github.com/rust-lang/rust.vim.git \
     && git clone https://github.com/racer-rust/racer.git \
-    && git clone https://github.com/tomlion/vim-solidity.git
+    && git clone https://github.com/tomlion/vim-solidity.git \
+    && git clone https://github.com/pangloss/vim-javascript.git
