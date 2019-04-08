@@ -3,14 +3,14 @@ To Do
 
 # VIM Stuff
 
-Install system wide libraries
+Global
 
     sudo apt install build-essential git cmake python3-dev \
     && sudo apt-get update \
     && sudo apt-get upgrade \
     && git config --global credential.helper cache
 
-Install VIM plugins
+VIM
 
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
@@ -26,5 +26,7 @@ Install VIM plugins
     && git clone https://github.com/Valloric/YouCompleteMe.git \
     && cd YouCompleteMe && git submodule update --init --recursive \
     && python3 install.py --all \
-    && cd \
+    
+    
+    cd \
     && vim .vimrc
