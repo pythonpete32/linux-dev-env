@@ -31,7 +31,12 @@ nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>                                                                                                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
-" ALE                                                                                                                                                                     
+" ALE
+" NerdTree
 autocmd StdinReadPre * let s:std_in=1                                                                                                                                     
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif      
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif    
+" Airline
 let g:airline#extensions#ale#enabled = 1
+" JSX
+let g:ale_linter_aliases = {'jsx': ['css', 'javascript']}
+let g:ale_linters = {'jsx': ['stylelint', 'eslint']}
