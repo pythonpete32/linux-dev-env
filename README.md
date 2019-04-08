@@ -2,14 +2,20 @@
 
 ### Global
 
+Install global libraries.
+
     sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
     && sudo apt-get upgrade \
     && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier
     
+Setup Git.
+
     git config --global credential.helper cache
 
 ### VIM
+
+Setup VIM8 directories and install plugins.
 
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
@@ -26,15 +32,17 @@
     && cd YouCompleteMe && git submodule update --init --recursive \
     && python3 install.py --all \
  
-Navigate back to the home directory
+Navigate back to the home directory.
 
     cd
  
-Create a .vimrc and then copy and save the .vimrc from this repo
+Create a .vimrc and then copy and save the .vimrc from this repo.
 
     vim .vimrc
     
-You might have to init npm and eslint in the home directory. If so, just say yes to all. Then run the following echo commands to setup JSHint and ESLint for es8 and React
+ESLint and JSHint will not play nice at first. 
+- You might have to init npm and eslint in the home directory. If so, just say yes to all. 
+- And/or run the following echo commands to setup JSHint and ESLint for es8 and React.
 
     npm init
     eslint --init
