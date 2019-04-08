@@ -20,6 +20,7 @@ Setup VIM8 directories and install plugins.
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
     && git clone https://github.com/scrooloose/nerdtree.git \
+    && git clone https://github.com/Raimondi/delimitMate \
     && git clone https://github.com/w0rp/ale.git \
     && git clone https://github.com/vim-airline/vim-airline.git \
     && git clone https://github.com/elzr/vim-json.git \
