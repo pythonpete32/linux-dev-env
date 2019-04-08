@@ -2,7 +2,7 @@
 
 First 
 
-    sudo apt install build-essential cmake python3-dev
+    sudo apt install build-essential git cmake python3-dev
 
 Then
 
