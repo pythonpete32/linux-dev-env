@@ -3,14 +3,14 @@ To Do
 
 # VIM Stuff
 
-1) Install system wide libraries
+Install system wide libraries
 
     sudo apt install build-essential git cmake python3-dev \
     && sudo apt-get update \
     && sudo apt-get upgrade \
     && git config --global credential.helper cache
 
-2) Install VIM plugins
+Install VIM plugins
 
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
