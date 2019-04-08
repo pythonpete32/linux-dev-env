@@ -25,10 +25,10 @@ VIM
     && git clone https://github.com/Valloric/YouCompleteMe.git \
     && cd YouCompleteMe && git submodule update --init --recursive \
     && python3 install.py --all \
+    && cd \
     
-    
+Create a .vimrc and then copy and save the .vimrc from this repo
+
     cd && vim .vimrc
-    
-    # copy and save the .vimrc from this repo
     
     echo "use 'esversion: 6'" > .jshintrc
