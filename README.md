@@ -2,10 +2,10 @@
 
 ### Global
 
-    sudo apt install build-essential git cmake python3-dev npm \
+    sudo apt install build-essential git cmake python3-dev npm solc \
     && sudo apt-get update \
     && sudo apt-get upgrade \
-    && sudo npm i -g eslint jshint npx
+    && sudo npm i -g eslint jshint npx solc prettier
     
     git config --global credential.helper cache
 
