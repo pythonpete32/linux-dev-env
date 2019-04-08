@@ -37,4 +37,4 @@ Create a .vimrc and then copy and save the .vimrc from this repo
 Fix JSHint
 
     echo "use 'esversion: 8'" > .jshint \
-    && echo "{use 'esversion: 8'}" > .jshintrc
+    && echo -e "{\nuse 'esversion: 8'\n}" > .jshintrc
