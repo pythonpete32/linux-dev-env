@@ -28,3 +28,9 @@ VIM
     
     
     cd && vim .vimrc
+    
+    # copy and save the .vimrc from this repo
+    
+    vim .jshintrc
+    
+    use 'esversion: 6'
