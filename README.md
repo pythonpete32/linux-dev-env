@@ -20,3 +20,7 @@ Then
     && git clone https://github.com/pangloss/vim-javascript.git \
     && git clone https://github.com/Valloric/YouCompleteMe.git \
     && cd YouCompleteMe && python3 install.py --all
+
+Then 
+
+    git config --global credential.helper cache
