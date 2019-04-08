@@ -1,6 +1,7 @@
 " Theme                                                                                                                                                                   
 syntax enable                                                                                                                                                             
-colorscheme OceanicNext                                                                                                                                                   
+colorscheme OceanicNext    
+let g:airline_theme='oceanicnext'
                                                                                                                                                                           
                                                                                                                                                                           
 " Search                                                                                                                                                                  
