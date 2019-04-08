@@ -5,7 +5,7 @@ To Do
 
 Global
 
-    sudo apt install build-essential git cmake python3-dev npm npx \
+    sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
     && sudo apt-get upgrade
     
