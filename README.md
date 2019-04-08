@@ -1,4 +1,4 @@
-# Linux Dev Env 
+# Linux Dev Env 🐧
 
 ### Global
 
