@@ -5,10 +5,15 @@ To Do
 
 Global
 
-    sudo apt install build-essential git cmake python3-dev \
+    sudo apt install build-essential git cmake python3-dev npm npx \
     && sudo apt-get update \
-    && sudo apt-get upgrade \
-    && git config --global credential.helper cache
+    && sudo apt-get upgrade
+    
+    npm i -g eslint jshint
+    
+    npm i npm
+    
+    git config --global credential.helper cache
 
 VIM
 
