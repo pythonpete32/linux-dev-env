@@ -40,9 +40,7 @@ Create a .vimrc and then copy and save the .vimrc from this repo.
 
     vim .vimrc
     
-ESLint and JSHint will not play nice at first. 
-- You might have to init npm and eslint in the home directory. If so, just say yes to all. 
-- And/or run the following echo commands to setup JSHint and ESLint for es8 and React.
+Set parameters for ESLint and JSHint to play nicely with es8. You might have to init npm and eslint in the home directory. If so, just say yes to all. Then run the following echo commands to set paramaters for JSHint and ESLint.
 
     npm init
     eslint --init
