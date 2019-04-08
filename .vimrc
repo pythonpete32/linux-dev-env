@@ -1,7 +1,9 @@
 " Theme                                                                                                                                                                   
-syntax enable                                                                                                                                                             
+syntax on                                                                                                                                                        
 colorscheme OceanicNext    
 let g:airline_theme='oceanicnext'
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
                                                                                                                                                                           
                                                                                                                                                                           
 " Search                                                                                                                                                                  
@@ -11,8 +13,7 @@ set ignorecase                " search ignoring case
 set showmatch                 " show matching bracket                                                                                                                     
                                                                                                                                                                           
                                                                                                                                                                           
-" Syntax                                                                                                                                                                  
-syntax on                                                                                                                                                                 
+" Syntax                                                                                                                                                                                                                                                                                                                                
 filetype on                   " Enable filetype detection                                                                                                                 
 filetype plugin on            " Enable filetype-specific plugins                                                                                                          
 filetype indent on            " Enable filetype-specific indenting                                                                                                        
