@@ -1,6 +1,6 @@
 # Linux Dev Env 
 
-Global
+### Global
 
     sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
@@ -9,7 +9,7 @@ Global
     
     git config --global credential.helper cache
 
-VIM
+### VIM
 
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
@@ -25,10 +25,19 @@ VIM
     && git clone https://github.com/Valloric/YouCompleteMe.git \
     && cd YouCompleteMe && git submodule update --init --recursive \
     && python3 install.py --all \
-    && cd \
-    
+ 
+Navigate back to the home directory
+
+    cd
+ 
 Create a .vimrc and then copy and save the .vimrc from this repo
 
-    cd && vim .vimrc
+    vim .vimrc
     
+Fix JSHint
+
     echo "use 'esversion: 6'" > .jshintrc
+    
+Fix ESLint
+
+    echo "use 'esversion: 6'" > .eslintrc
