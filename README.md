@@ -38,4 +38,4 @@ Fix JSHint
 
     echo "use 'esversion: 8'" > .jshint \
     && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
-    && echo -e "module.exports = {\n\trules: {\n\t\t'no-console': 'off',\n\t},\n};\n\n\t"env": {\n\t\t"es6": true\n\t}" > .eslintrc.js
+    && echo -e "module.exports = {\n\trules: {\n\t\t'no-console': 'off',\n\t},\n};\n\n"env": {\n\t"es6": true\n}" > .eslintrc.js
