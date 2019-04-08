@@ -3,13 +3,14 @@ To Do
 
 # VIM Stuff
 
-First 
+1) Install system wide libraries
 
     sudo apt install build-essential git cmake python3-dev \
     && sudo apt-get update \
-    && sudo apt-get upgrade
+    && sudo apt-get upgrade \
+    && git config --global credential.helper cache
 
-Then
+2) Install VIM plugins
 
     mkdir -p ~/.vim/pack/plugins/start/ \
     && cd ~/.vim/pack/plugins/start/ \
@@ -24,14 +25,6 @@ Then
     && git clone https://github.com/mhartington/oceanic-next.git \
     && git clone https://github.com/Valloric/YouCompleteMe.git \
     && cd YouCompleteMe && git submodule update --init --recursive \
-    && python3 install.py --all
-
-Then 
-
-    git config --global credential.helper cache
-
-Then 
-
-    vim .vimrc
-    
-Then copy the .vimrc file from this repo and write quit `wq`
+    && python3 install.py --all \
+    && cd \
+    && vim .vimrc
