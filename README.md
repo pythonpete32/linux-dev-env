@@ -19,7 +19,8 @@ Then
     && git clone https://github.com/tomlion/vim-solidity.git \
     && git clone https://github.com/pangloss/vim-javascript.git \
     && git clone https://github.com/Valloric/YouCompleteMe.git \
-    && cd YouCompleteMe && python3 install.py --all
+    && cd YouCompleteMe && python3 install.py --all \
+    && git submodule update --init --recursive
 
 Then 
 
