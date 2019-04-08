@@ -8,7 +8,7 @@ Global
     sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
     && sudo apt-get upgrade \
-    && sudo npm i -g npm eslint jshint
+    && sudo npm i -g eslint jshint
     
     git config --global credential.helper cache
 
