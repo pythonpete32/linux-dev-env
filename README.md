@@ -58,8 +58,17 @@ Grab the latest version
 Then 
 
     bash Miniconda3-latest-Linux-x86_64.sh
+    
+Please, press ENTER to continue
+
     enter
+
+Do you accept the license terms?
+
     yes
+    
+Miniconda3 will now be installed into this location: (the default location is a folder in the home directory)
+    
     enter
     
 Do you wish the installer to initialize Miniconda3
