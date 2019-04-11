@@ -81,8 +81,8 @@ in your /home/deliciousdohnuts/.bashrc ?
 
     yes
 
-Close the terminal.
-Open a new terminal.
+Close the terminal
+Open a new terminal
 
     conda
     conda update conda
@@ -93,7 +93,7 @@ Create a conda dev env
     conda install numpy scikit-learn pandas jupyter tenserflow
     conda activate dev
 
-Launch a Jupyter notebook (the easy way)
+Launch a Jupyter notebook the easy way (if you're working on a remote server and not a local environment)
 
     jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
     ssh -R 80:localhost:8888 serveo.net
