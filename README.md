@@ -92,3 +92,8 @@ Create a conda dev env
     conda create -n dev
     conda install numpy scikit-learn pandas jupyter tenserflow
     conda activate dev
+
+Launch a Jupyter notebook (the easy way)
+
+    jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
+    ssh -R 80:localhost:8888 serveo.net
