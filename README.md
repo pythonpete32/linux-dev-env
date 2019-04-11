@@ -49,3 +49,25 @@ Set parameters for ESLint and JSHint to play nicely with es8. You might have to 
     echo "use 'esversion: 8'" > .jshint \
     && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
     && echo -e "env: {\n\tnode: true,\n\tes8: true\n}\nrules: {\n\t'no-console': 'off',\n}," > .eslintrc.js
+    
+### Miniconda
+
+Grab the latest version
+- [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+
+Then 
+
+    bash Miniconda3-latest-Linux-x86_64.sh
+    enter
+    yes
+    enter
+    
+Do you wish the installer to initialize Miniconda3
+in your /home/deliciousdohnuts/.bashrc ?
+
+    yes
+
+Close the terminal.
+Open a new terminal.
+
+    conda
