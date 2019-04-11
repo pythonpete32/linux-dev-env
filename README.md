@@ -87,7 +87,7 @@ Open a new terminal.
     conda
     conda update conda
 
-### Conda Dev Env
+Create a conda dev env
 
     conda create -n dev
     conda install numpy scikit-learn pandas jupyter tenserflow
