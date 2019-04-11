@@ -80,3 +80,4 @@ Close the terminal.
 Open a new terminal.
 
     conda
+    conda update conda
