@@ -101,4 +101,7 @@ Launch a Jupyter notebook the easy way (if you're working on a remote server and
 ## Rust
 
 Useful Things
-- [Rust Toolstate Updates](https://rust-lang-nursery.github.io/rust-toolstate/)
+- [Rust Toolstate Updates](https://rust-lang-nursery.github.io/rust-toolstate/) - Updates on WIP Rust tools and if they are or are not ready yet.
+- [Rust Language Server](https://github.com/rust-lang/rls) - The RLS provides a server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs. It supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
+- [Rust Clippy](https://github.com/rust-lang/rust-clippy) - A bunch of lints to catch common mistakes and improve your Rust code.
+- [Cargo Dependency Graph](https://github.com/m-cat/cargo-deps) - Cargo subcommand for building dependency graphs of Rust projects.
