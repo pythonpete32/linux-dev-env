@@ -1,6 +1,6 @@
 # Linux Dev Env 🐧
 
-### Global
+## Global
 
 Install global libraries.
 
@@ -13,7 +13,7 @@ Setup Git.
 
     git config --global credential.helper cache
 
-### VIM
+## VIM
 
 Setup VIM8 directories and install plugins.
 
@@ -55,7 +55,7 @@ Set parameters for ESLint and JSHint to play nicely with es8. You might have to 
     && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
     && echo -e "env: {\n\tnode: true,\n\tes8: true\n}\nrules: {\n\t'no-console': 'off',\n}," > .eslintrc.js
     
-### Miniconda
+## Miniconda
 
 Grab the latest version
 - [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
@@ -97,3 +97,8 @@ Launch a Jupyter notebook the easy way (if you're working on a remote server and
 
     jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
     ssh -R 80:localhost:8888 serveo.net
+
+## Rust
+
+Useful Things
+- [Rust Toolstate Updates](https://rust-lang-nursery.github.io/rust-toolstate/)
