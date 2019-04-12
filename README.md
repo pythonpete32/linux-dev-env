@@ -103,10 +103,17 @@ Launch a Jupyter notebook the easy way (if you're working on a remote server and
 First go here:
 - [Rust Toolstate Updates](https://rust-lang-nursery.github.io/rust-toolstate/) - Updates on WIP Rust tools and if they are or are not ready yet.
 
-Useful Rust Things:
+Useful Rust dev things:
 - [Automatic Rust FMT On Save](https://github.com/rust-lang/rust.vim#formatting-with-rustfmt) - Immediately formats code in VIM whenever you save.
 - [Rust VIM](https://github.com/rust-lang/rust.vim/) - Vim configuration for Rust.
 - [Rust Racer](https://github.com/racer-rust/racer) - Rust code completion utility.
 - [Rust Language Server](https://github.com/rust-lang/rls) - The RLS provides a server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs. It supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [Rust Clippy](https://github.com/rust-lang/rust-clippy) - A bunch of lints to catch common mistakes and improve your Rust code.
 - [Cargo Dependency Graph](https://github.com/m-cat/cargo-deps) - Cargo subcommand for building dependency graphs of Rust projects.
+
+Other Rust things:
+- [Rust Cheatsheet](https://cheats.rs/) - Shortlist of useful Rust commands.
+- [/r/rust](https://www.reddit.com/r/rust/) - Generally friendly and helpful community. Often a great place to catch up on the latest Rust stuff.
+- [The official Rust programming language forum](https://users.rust-lang.org) - Great place to ask or answer technical questions.
+- [Rust Playground](https://play.rust-lang.org) - Online Rust REPL.
+- [Official Rust Website](https://www.rust-lang.org/) - Links to almost everything Rust related.
