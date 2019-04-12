@@ -105,6 +105,8 @@ First go here:
 
 Useful Rust Things:
 - [Automatic Rust FMT On Save](https://github.com/rust-lang/rust.vim#formatting-with-rustfmt) - Immediately formats code in VIM whenever you save.
+- [Rust VIM](https://github.com/rust-lang/rust.vim/) - Vim configuration for Rust.
+- [Rust Racer](https://github.com/racer-rust/racer) - Rust code completion utility.
 - [Rust Language Server](https://github.com/rust-lang/rls) - The RLS provides a server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs. It supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 - [Rust Clippy](https://github.com/rust-lang/rust-clippy) - A bunch of lints to catch common mistakes and improve your Rust code.
 - [Cargo Dependency Graph](https://github.com/m-cat/cargo-deps) - Cargo subcommand for building dependency graphs of Rust projects.
