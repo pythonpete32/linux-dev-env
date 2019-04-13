@@ -98,6 +98,10 @@ Launch a Jupyter notebook the easy way (if you're working on a remote server and
     jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
     ssh -R 80:localhost:8888 serveo.net
 
+## DL / ML / RL
+Google Colab is free, easy to share, and frankly got WAY better since last year. Also the checkpointing feature will making working remotely/intermitently much easier. Haven't tried it with larger datasets recently, but atm it seems like the way to go.
+- https://colab.research.google.com/
+
 ## Rust 🦀
 
 First go here:
