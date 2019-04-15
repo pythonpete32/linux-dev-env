@@ -55,6 +55,10 @@ Set parameters for ESLint and JSHint to play nicely with es8. You might have to 
     && echo -e "{\n\tuse 'esversion: 8'\n\t}" > .jshintrc \
     && echo -e "env: {\n\tnode: true,\n\tes8: true\n}\nrules: {\n\t'no-console': 'off',\n}," > .eslintrc.js
     
+To Do: add React stuff to eslint like hooks
+- https://www.npmjs.com/package/eslint-plugin-react-hooks
+
+    
 ## Python & Conda 🐍
 
 Grab the latest version
