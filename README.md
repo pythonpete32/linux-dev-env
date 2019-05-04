@@ -7,7 +7,7 @@ Install global libraries.
     sudo apt install build-essential git cmake python3-dev npm \
     && sudo apt-get update \
     && sudo apt-get upgrade \
-    && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier
+    && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier n
     
 Setup Git.
 
