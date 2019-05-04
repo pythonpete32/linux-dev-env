@@ -11,7 +11,7 @@ Install global libraries.
 
 NPM / Node / N
 - [read through Resolving EACCESS Errors](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
-- [make sure n is working](https://github.com/tj/n)
+- [make sure `n` is working](https://github.com/tj/n)
 
 Setup Git.
 
