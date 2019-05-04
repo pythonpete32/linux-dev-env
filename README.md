@@ -8,7 +8,11 @@ Install global libraries.
     && sudo apt-get update \
     && sudo apt-get upgrade \
     && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier n
-    
+
+NPM / Node / N
+- [read through Resolving EACCESS Errors](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+- [make sure n is working](https://github.com/tj/n)
+
 Setup Git.
 
     git config --global credential.helper cache
