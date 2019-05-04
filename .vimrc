@@ -1,9 +1,13 @@
 " Theme                                                                                                                                                                   
-syntax on                                                                                                                                                        
-colorscheme OceanicNext    
-let g:airline_theme='oceanicnext'
-let g:oceanic_next_terminal_bold = 1
-let g:oceanic_next_terminal_italic = 1
+syntax enable                                                                                                                                                             
+colorscheme OceanicNext                                                                                                                                                   
+                                                                                                                                                                          
+                                                                                                                                                                          
+" Spellchecking                                                                                                                                                           
+"set spell spelllang=en_us                                                                                                                                                
+                                                                                                                                                                          
+" Set Line Numbers                                                                                                                                                        
+set nu                                                                                                                                                                    
                                                                                                                                                                           
                                                                                                                                                                           
 " Search                                                                                                                                                                  
@@ -13,7 +17,8 @@ set ignorecase                " search ignoring case
 set showmatch                 " show matching bracket                                                                                                                     
                                                                                                                                                                           
                                                                                                                                                                           
-" Syntax                                                                                                                                                                                                                                                                                                                                
+" Syntax                                                                                                                                                                  
+syntax on                                                                                                                                                                 
 filetype on                   " Enable filetype detection                                                                                                                 
 filetype plugin on            " Enable filetype-specific plugins                                                                                                          
 filetype indent on            " Enable filetype-specific indenting                                                                                                        
@@ -31,12 +36,6 @@ nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>                                                                                                                                                          
                                                                                                                                                                           
                                                                                                                                                                           
-" ALE
-" NerdTree
+" ALE                                                                                                                                                                     
 autocmd StdinReadPre * let s:std_in=1                                                                                                                                     
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif    
-" Airline
-let g:airline#extensions#ale#enabled = 1
-" JSX
-let g:ale_linter_aliases = {'jsx': ['css', 'javascript']}
-let g:ale_linters = {'jsx': ['stylelint', 'eslint']}
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif  
