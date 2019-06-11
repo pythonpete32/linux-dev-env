@@ -34,6 +34,7 @@ Setup VIM8 directories and install plugins.
     && git clone https://github.com/mhartington/oceanic-next.git \
     `#Install Language Specific Plugins` \
     && git clone https://github.com/elzr/vim-json.git \
+    && git clone https://github.com/ryanoasis/vim-devicons \
     && git clone https://github.com/pangloss/vim-javascript.git \
     && git clone https://github.com/rust-lang/rust.vim.git \
     && git clone https://github.com/racer-rust/racer.git \
