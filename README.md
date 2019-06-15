@@ -10,10 +10,20 @@ sudo apt-get update && sudo apt-get upgrade
 
 Install global libraries.
 
-    sudo apt install build-essential git cmake python3-dev npm vim yarn \
+    sudo apt install build-essential git cmake python3-dev npm vim \
     && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier n
     && sudo apt-get update \
     && sudo apt-get upgrade \
+    
+Yarn
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+```
+sudo apt-get update && sudo apt-get install yarn
+```
 
 NPM / Node / N
 - [read through Resolving EACCESS Errors](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
