@@ -10,7 +10,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 Install global libraries.
 
-    sudo apt install build-essential git cmake python3-dev npm \
+    sudo apt install build-essential git cmake python3-dev npm vim \
     && sudo npm i -g eslint node-gyp eslint-plugin-react jshint npx solc prettier n
     && sudo apt-get update \
     && sudo apt-get upgrade \
