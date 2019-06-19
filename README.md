@@ -1,5 +1,7 @@
 # Linux Dev Env 🐧
 
+<br>
+
 ## Global ⚙️
 
 Update apt-get
@@ -32,6 +34,8 @@ NPM / Node / N
 Setup Git.
 
     git config --global credential.helper cache
+
+<br>
 
 ## VIM ⌨️
 
@@ -79,6 +83,7 @@ Set parameters for ESLint and JSHint to play nicely with es8. You might have to 
 To Do: add React stuff to eslint like hooks
 - https://www.npmjs.com/package/eslint-plugin-react-hooks
 
+<br>
     
 ## Python & Conda 🐍
 
@@ -123,6 +128,8 @@ Launch a Jupyter notebook the easy way (if you're working on a remote server and
     jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
     ssh -R 80:localhost:8888 serveo.net
 
+<br>
+
 ## DL / ML / RL 🔮
 
 Google Colab is free, easy to share, and has Corgi Mode! 
@@ -132,6 +139,8 @@ Google Colab is free, easy to share, and has Corgi Mode!
 
 Haven't tried it with larger datasets recently, but atm it seems like the way to go.
 - https://colab.research.google.com/
+
+<br>
 
 ## Rust 🦀
 
@@ -152,3 +161,12 @@ Other Rust things:
 - [The official Rust programming language forum](https://users.rust-lang.org) - Great place to ask or answer technical questions.
 - [Rust Playground](https://play.rust-lang.org) - Online Rust REPL.
 - [Official Rust Website](https://www.rust-lang.org/) - Links to almost everything Rust related.
+
+<br>
+
+## SSH
+
+Google Cloud
+- [Connecting via 3rd party tools](https://cloud.google.com/compute/docs/instances/connecting-advanced) - how to use Cloud Shell to generate and download SSH keypairs if you can't do so locally
+
+<br>
