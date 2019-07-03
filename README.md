@@ -176,3 +176,17 @@ Google Cloud
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 <br>
+
+## Sandboxing
+
+Firejail
+- https://firejail.wordpress.com/
+- https://github.com/netblue30/firejail/tree/LTSbase
+
+Arch Linux Wiki
+- https://wiki.archlinux.org/index.php/Security#Sandboxing_applications
+
+QubesOS
+- https://www.qubes-os.org
+
+<br>
