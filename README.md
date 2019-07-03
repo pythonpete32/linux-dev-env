@@ -182,6 +182,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 Firejail
 - https://firejail.wordpress.com/
 - https://github.com/netblue30/firejail/tree/LTSbase
+- https://wiki.archlinux.org/index.php/Firejail
 
 Arch Linux Wiki
 - https://wiki.archlinux.org/index.php/Security#Sandboxing_applications
