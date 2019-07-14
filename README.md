@@ -28,8 +28,10 @@ sudo apt-get update && sudo apt-get install yarn
 ```
 
 NPM / Node / N
-- [read through Resolving EACCESS Errors](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
-- [make sure `n` is working](https://github.com/tj/n)
+``` curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash ```
+
+``` nvm install [latest lte] ```
+
 
 Setup Git.
 
