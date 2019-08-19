@@ -27,10 +27,15 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install yarn
 ```
 
-NPM / Node / N
-``` curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash ```
+NVM 
 
-``` nvm install [latest lte] ```
+``` sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash 
+```
+
+``` sh
+nvm install [latest lte] 
+```
 
 
 Setup Git.
